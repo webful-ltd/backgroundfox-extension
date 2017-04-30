@@ -1,0 +1,17 @@
+{
+  "description": "Loads YouTube videos in a simplified player that keeps audio working in the background if you switch tab or app.",
+  "manifest_version": 2,
+  "name": "BackgroundFox",
+  "version": "0.1",
+  "developer": {
+    "name": "Noel Light-Hilary",
+    "url": "https://noellh.com"
+  },
+  "homepage_url": "https://github.com/webful-ltd/backgroundfox-extension",
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["embed.js"]
+    }
+  ]
+}
