@@ -7,7 +7,7 @@ Loads YouTube videos in a simplified player that keeps audio working in the back
 ## Limitations
 
 * The redirect process is quite clunky and happens after the original YouTube page mostly loaded.
-* You can't easily return to the normal YouTube video page or get controls for a video as a one-off. This breaks playlist playback and makes it hard to get a sharing URL,'like' or playlist a video.
+* You can't easily return to the normal YouTube video page or get controls for a video as a one-off. This breaks playlist playback and makes it hard to get a sharing URL, or to like or playlist a video.
 * Autoplay doesn't work on Firefox mobile as the flag is ignored by the browser.
 
 ## Supporting repo
